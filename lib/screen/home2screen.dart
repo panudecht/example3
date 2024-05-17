@@ -26,8 +26,8 @@ class _HomeScreen2StateState extends State<HomeScreen2State> {
                 children: [
                   Column(
                     children: [
-                      Text("Hello1"),
-                      Text("Hello2"),
+                      Text("Science Space",style:TextStyle(fontSize: 20,fontWeight: FontWeight.bold)),
+                      Text("Near Earth Object"),
                     ],
                   ),
                   Padding(
@@ -49,10 +49,10 @@ class _HomeScreen2StateState extends State<HomeScreen2State> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   Column(
-                    children: [Icon(Icons.call), Text('Call')],
+                    children: [Icon(Icons.call,color: Colors.green,), Text('Call')],
                   ),
                   Column(
-                    children: [Icon(Icons.route), Text('Route')],
+                    children: [Icon(Icons.route,color: Colors.blue,), Text('Route')],
                   ),
                   Column(
                     children: [Icon(Icons.share), Text('Share')],
