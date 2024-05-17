@@ -14,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: const Text('Home'),
       ),
-      body: const Row(
+      body:  Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           Column(
@@ -28,6 +28,8 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ],
       ),
+
+ 
     );
   }
 }
