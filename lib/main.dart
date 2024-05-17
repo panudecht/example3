@@ -3,9 +3,15 @@
 
 
 
+
 import 'package:flutter/material.dart';
 
-import 'screen/my_home_page.dart';
+import 'screen/home2screen.dart';
+
+
+
+
+
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +24,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      home: MyHomePage(),
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
+      ),
+      home: const HomeScreen2State(),
     );
 }
 }
